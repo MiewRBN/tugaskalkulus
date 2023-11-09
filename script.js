@@ -11,5 +11,9 @@ function calculateDerivative() {
       resultOutput.textContent = 'Terjadi kesalahan dalam perhitungan.';
     }
   }
-  
+
+function resetCalculator() {
+   document.getElementById('expression').value = '';
+   document.getElementById('result').textContent = '';
+  }
   
